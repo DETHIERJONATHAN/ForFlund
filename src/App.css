@@ -1,0 +1,36 @@
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.three-column-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column, .center-column, .right-column {
+    flex: 1;
+    padding: 10px;
+}
+
+.center-column {
+    flex: 2; /* La colonne centrale est plus large */
+}
+
+.publication {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.interactions button {
+    margin-right: 10px;
+}
